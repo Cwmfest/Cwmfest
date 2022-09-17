@@ -2,8 +2,20 @@ const staticCwmfest = "cwmfest-site-v1"
 const assets = [
   "/",
   "/index.html",
+  "/about.html",
+  "/lineup.html",
+  "/map.html",
+  "/posters.html",
+  "/programme.html",
+  "/sponsors.html",
   "/css/style.css",
   "/js/app.js",
+  "/js/posters.js",
+  "/js/programme.js",
+  "/js/sponsors.js",
+  "images/Cover.png",
+  "images/2022 Logo.jpeg",
+  "images/2022 poster.jpeg",
   "images/posters/2008poster.jpg",
   "images/posters/2009poster.jpg",
   "images/posters/2009faces1.jpg",
@@ -21,11 +33,19 @@ const assets = [
   "images/posters/2017poster.jpg",
   "images/posters/2018poster.jpg",
   "images/posters/2019poster.jpg",
+  "images/Sponsors/lottery.jpg",
+  "images/Sponsors/windfarm.jpg",
+  "images/Sponsors/kelray.jpg",
+  "images/Programme/p4_prog.jpeg",
+  "images/Programme/p3_prog.jpeg",
+  "images/Programme/p2_prog.jpeg",
+  "images/Programme/p1_prog.jpeg",
+  
 ]
 
 self.addEventListener("install", installEvent => {
   installEvent.waitUntil(
-    caches.open(staticDevPosters).then(cache => {
+    caches.open(staticCwmfest).then(cache => {
       cache.addAll(assets)
     })
   )

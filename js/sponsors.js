@@ -1,12 +1,12 @@
 const container = document.querySelector(".container")
-const programme = [
+const sponsors = [
 	{ name: "Kelray Ltd.", image: "images/Sponsors/kelray.jpg" },
-	{ name: "The National Lottery", image: "images/Sponsors/lottery.jpg" },
 	{ name: "Pen Y Cymoedd", image: "images/Sponsors/windfarm.jpg" },
+	{ name: "The National Lottery", image: "images/Sponsors/lottery.jpg" },
 ]
-const showProgramme = () => {
+const showSponsors = () => {
   let output = ""
-  programme.forEach(
+  sponsors.forEach(
     ({ name, image }) =>
       (output += `
               <div class="card">
@@ -19,7 +19,7 @@ const showProgramme = () => {
   container.innerHTML = output
 }
 
-document.addEventListener("DOMContentLoaded", showProgramme)
+document.addEventListener("DOMContentLoaded", showSponsors)
 
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", function() {
