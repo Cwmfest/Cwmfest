@@ -1,8 +1,8 @@
 const container = document.querySelector(".container")
 const programme = [
 	{ name: "Kelray Ltd.", image: "images/Sponsors/kelray.jpg" },
-	{ name: "The National Lottery", image: "images/Sponsors/lottery.jpeg" },
-	{ name: "Pen Y Cymoedd", image: "images/Sponsors/windfarm.jpeg" },
+	{ name: "The National Lottery", image: "images/Sponsors/lottery.jpg" },
+	{ name: "Pen Y Cymoedd", image: "images/Sponsors/windfarm.jpg" },
 ]
 const showProgramme = () => {
   let output = ""
