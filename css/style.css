@@ -28,7 +28,7 @@ main {
 }
 nav{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   overflow: hidden;
   background-color: #e0d300;
@@ -142,7 +142,7 @@ h1 {
   color: #222;
   font-weight: 700;
   text-transform: capitalize;
-  font-size: 1.1rem;
+  font-size: 0.85rem;
   margin-top: 0.5rem;
 }
 .card--link {
