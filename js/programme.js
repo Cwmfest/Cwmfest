@@ -1,9 +1,9 @@
 const container = document.querySelector(".container")
 const programme = [
-	{ name: "Cwmfest 2022 Programme Cover", image: "images/Programme/p1 prog.jpeg" },
-	{ name: "Cwmfest 2022 Programme Page 2", image: "images/Programme/p1 prog.jpeg" },
-	{ name: "Cwmfest 2022 Programme Page 3", image: "images/Programme/p1 prog.jpeg" },
-	{ name: "Cwmfest 2022 Programme Sponsors", image: "images/Programme/p1 prog.jpeg" },
+	{ name: "Cwmfest 2022 Programme Cover", image: "images/Programme/p1_prog.jpeg" },
+	{ name: "Cwmfest 2022 Programme Page 2", image: "images/Programme/p2_prog.jpeg" },
+	{ name: "Cwmfest 2022 Programme Page 3", image: "images/Programme/p3_prog.jpeg" },
+	{ name: "Cwmfest 2022 Programme Sponsors", image: "images/Programme/p4_prog.jpeg" },
 ]
 const showProgramme = () => {
   let output = ""
