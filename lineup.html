@@ -41,8 +41,37 @@
 		</nav>
 		<br>
 		<div class="MainPoster">
-				<img src="images/2022 Updated Poster.jpg" alt="2022 Lineup" style='height: 100%; width: 100%; object-fit: contain' ></img>
+				<img id="myImg" src="images/2022 Updated Poster.jpg" alt="Cwmfest 2022 Lineup" style='height: 100%; width: 100%; object-fit: contain' ></img>
 		</div>
+		<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
 	  
 <!-- Description -->
 <section class="w3-container w3-center w3-content">
@@ -100,7 +129,7 @@
 	<br>
 	<h4 class="w3-wide">Saturday Sept 24th</h4>
 		<p>5:00 – 5:30 Ian Lynn Palmer</p>
-		<p>6:00 – 6:30 Jamie Mcardle</p>
+		<p>6:00 – 6:30 Jaws of Life</p>
 		<p>7:00 – 8:00 Feverjaw</p>
 		<p>8:30 – 9:30 Bedface</p>
 		<p>10:00 – 11:00 The Hoop</p>
@@ -123,9 +152,9 @@
 		<p>10:00 – 11:00 The Eyes</p>
 	<br>
 	<h4 class="w3-wide">Sunday Sept 25th</h4>
-		<p>3:00 – 3:30 Mitch Ure</p>
+		<p>3:00 – 3:30 Pete Jagger</p>
 		<p>4:00 – 4:30 Hertz-2-Luv</p>
-		<p>5:00 – 6:00 Gaudy Orde</p>
+		<p>5:00 – 6:00 Mitch Ure</p>
 		<p>6:30 – 7:30 Tin Goose</p>
 		<p>8:00 – 9:00 Parcel Of Rogues</p>
 	<br>
@@ -140,7 +169,7 @@
 	<br>
 	<h4 class="w3-wide">Sunday Sept 25th</h4>
 		<p>3:00 – 3:30 Tony Hands</p>
-		<p>4:00 – 4:30 Bighorns</p>
+		<p>4:00 – 4:30 Sam Chidgey</p>
 		<p>5:00 – 6:00 The Dragonflies</p>
 		<p>6:30 – 7:30 Crystalline</p>
 		<p>8:00 – 9:00 White Rabbit</p>
