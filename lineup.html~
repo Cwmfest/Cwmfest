@@ -32,7 +32,7 @@
 <header-component></header-component>
 		<br>
 		<div class="MainPoster">
-				<img id="myImg" src="images/2022 Updated Poster.jpg" alt="Cwmfest 2023 Poster Coming Soon" style='height: 100%; width: 100%; object-fit: contain' ></img>
+				<img id="myImg" src="images/2022 Updated Poster.jpg" alt="Cwmfest 2022 Lineup" style='height: 100%; width: 100%; object-fit: contain' ></img>
 		</div>
 		<!-- The Modal -->
 <div id="myModal" class="modal">

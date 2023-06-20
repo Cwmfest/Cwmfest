@@ -2,6 +2,7 @@ const container = document.querySelector(".container")
 const sponsors = [
 	{ name: "Kelray Ltd.", image: "images/Sponsors/kelray.jpg" },
 	{ name: "Pen Y Cymoedd", image: "images/Sponsors/windfarm.jpg" },
+	{ name: "Brock's", image: "images/Sponsors/Brocks.jpg" },
 	{ name: "The National Lottery", image: "images/Sponsors/lottery.jpg" },
 ]
 const showSponsors = () => {

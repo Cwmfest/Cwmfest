@@ -6,8 +6,6 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<link rel="stylesheet" href="css/style.css" />
 		<script src="https://kit.fontawesome.com/f4b2fc7064.js" crossorigin="anonymous"></script>
-		<script defer src="js/header.js"></script>
-		<script defer src="js/footer.js"></script>
 		<title>Cwmaman Music Festival</title>
 		<link rel="icon" type="image/x-icon" href="images/icons/favicon.ico">
 		<link rel="manifest" href="manifest.json" />
@@ -40,6 +38,6 @@
 </section>
 <footer-component></footer-component>
 		</main>
-    <script src="js/programme.js"></script>
+    <script src="js/posters.js"></script>
 	</body>
 </html>
