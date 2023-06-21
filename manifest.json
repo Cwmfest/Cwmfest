@@ -2,6 +2,7 @@
   "name": "Cwmaman Music Festival",
   "short_name": "Cwmfest",
   "start_url": "index.html",
+  "id": "/Cwmfest/index.html",
   "display": "standalone",
   "background_color": "#fdfdfd",
   "theme_color": "#e0d300",
