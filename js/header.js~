@@ -1,4 +1,17 @@
-const headerContent = `<div class="banner">
+const headerContent = `
+		<title>Cwmaman Music Festival</title>
+		<link rel="icon" type="image/x-icon" href="images/icons/favicon.ico">
+		<link rel="manifest" href="manifest.json" />
+		<!-- ios support -->
+		<meta name="apple-mobile-web-app-title" content="Cwmaman Music Festival">
+		<link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png">
+		<link rel="apple-touch-startup-image" href="/images/icons/2023Logo.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar" content="#db4938" />
+		<meta name="theme-color" content="#db4938" />
+<div class="banner">
 				<a href="index.html"><img src="images/Cover.png" alt="Cwmaman Music Festival"></a>
 			</div>
 		<nav>

@@ -10,22 +10,16 @@
 		<script defer src="js/footer.js"></script>
 		<title>Cwmaman Music Festival</title>
 		<link rel="icon" type="image/x-icon" href="images/icons/favicon.ico">
-		<link rel="manifest" href="manifest.json" />
-<!-- ios support -->
-<link rel="apple-touch-icon" href="images/icons/icon-72x72.png" />
-<link rel="apple-touch-icon" href="images/icons/icon-96x96.png" />
-<link rel="apple-touch-icon" href="images/icons/icon-128x128.png" />
-<link rel="apple-touch-icon" href="images/icons/icon-144x144.png" />
-<link rel="apple-touch-icon" href="images/icons/icon-152x152.png" />
-<link rel="apple-touch-icon" href="images/icons/icon-192x192.png" />
-<link rel="apple-touch-icon" href="images/icons/icon-384x384.png" />
-<link rel="apple-touch-icon" href="images/icons/icon-512x512.png" />
-<link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
-<link rel="manifest" href="images/icons/site.webmanifest">
-<meta name="apple-mobile-web-app-status-bar" content="#db4938" />
-<meta name="theme-color" content="#db4938" />
+		<link rel="manifest" href="/manifest.json">
+		<!-- ios support -->
+		<meta name="apple-mobile-web-app-title" content="Cwmaman Music Festival">
+		<link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png">
+		<link rel="apple-touch-startup-image" href="/images/icons/2023Logo.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar" content="#db4938" />
+		<meta name="theme-color" content="#db4938" />
 	</head>
 	<body>
 		<main>
@@ -45,7 +39,7 @@
 	<br>
 	<p class="w3-justify">The festival was formed for the benefit of people of all ages who enjoy live music, and to promote Cwmaman and the surrounding areas. The festival is back for its fourteenth year</p>
 	<br>
-	<p><div class="videoWrapper"><iframe width="790" height="474" src="https://www.youtube.com/embed/JuOdrIUW5ew" title="Cwmfest 2023 Teaser!" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></p>
+	<p><div class="videoWrapper"><iframe width="790" height="474" src="https://www.youtube-nocookie.com/embed/JuOdrIUW5ew" title="Cwmfest 2023 Teaser!" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></p>
 	
 </section>
 <footer-component></footer-component>
