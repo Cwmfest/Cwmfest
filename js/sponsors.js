@@ -1,6 +1,6 @@
 const container = document.querySelector(".container")
 const sponsors = [
-	{ name: "Kelray Ltd.", image: "images/Sponsors/kelray.jpg" },
+	{ name: "Kelray Ltd.", image: "images/Sponsors/kelray.png" },
 	{ name: "Pen Y Cymoedd", image: "images/Sponsors/windfarm.jpg" },
 	{ name: "The National Lottery", image: "images/Sponsors/lottery.jpg" },
 ]
