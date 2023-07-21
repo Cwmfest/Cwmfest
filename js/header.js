@@ -14,7 +14,7 @@ const headerContent = `<meta http-equiv="X-Clacks-Overhead" content="GNU Terry P
 		<br>
 		<nav>
 			<ul>
-				<li><a href="sponsors.html">Sponsors</a></li>
+				<li><a href="sponsors.html">Supported By</a></li>
 				<li><a href="changes.html">Last Minute Changes</a></li>
 			</ul>
 		</nav>`;
