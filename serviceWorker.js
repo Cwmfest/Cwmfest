@@ -36,6 +36,7 @@ const assets = [
   "/images/Sponsors/garage.webp",
   "/images/Sponsors/kelray.webp",
   "/images/Sponsors/lottery.png",
+  "/images/Sponsors/spilsbury.webp",
   "/js/app.js",
   "/js/footer.js",
   "/js/header.js",

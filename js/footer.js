@@ -1,7 +1,7 @@
 const footerContent = `<br>
 <h2 class="w3-wide">#MusicInTheVillage</h2>
-<h2 class="w3-wide">#Cwmfest23</h2>
-<h2 class="w3-wide">#ForMartyn</h2>
+<h2 class="w3-wide">#Cwmfest24</h2>
+
 <br>
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
