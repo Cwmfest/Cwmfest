@@ -28,6 +28,11 @@
   border-radius: 10px;
   overflow: hidden;
 }
+.list {
+    width: 80%;
+    margin: 0 auto;
+	text-align: center;
+}
 /* Style the Image Used to Trigger the Modal */
 #myImg {
   border-radius: 5px;
