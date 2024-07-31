@@ -1,6 +1,6 @@
 const container = document.querySelector(".container")
 const sponsors = [
-	{ name: "Kelray Ltd.", image: "images/Sponsors/kelray.webp", link: "http://www.kelray.co.uk/" },
+	{ name: "Kelray Ltd.", image: "images/Sponsors/kelray.webp", link: "https://www.kelray.co.uk/" },
 	{ name: "The Garage - Aberdare", image: "images/Sponsors/garage.webp", link: "https://www.facebook.com/thegarageaberdare" },
 	{ name: "The National Lottery Community Fund", image: "images/Sponsors/lottery.png", link: "https://www.tnlcommunityfund.org.uk/" },
 ]
