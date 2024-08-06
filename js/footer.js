@@ -16,6 +16,8 @@ const footerContent = `<br>
 	<h5 class="w3-wide">Website and app design by Ryan at GPD Music</h5>
 	<h5 class="w3-wide">Artwork and programmes by Su at Bizarre Dragonz</h5>
 	<h5 class="w3-wide">Videos from 2022 onwards by <a href="https://www.youtube.com/channel/UC6WOsXwN3l3s8kUbQgT0DeQ" target="_blank">@PaskyWales</a></h5>
+	<h5 class="w3-wide">Cwmaman Music Festival <a href="https://www.cwmfest.co.uk/privacy">privacy policy</a></h5>
+	<br>
 </credits>`;
 
 class Footer extends HTMLElement {
