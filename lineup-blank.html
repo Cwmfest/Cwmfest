@@ -10,8 +10,8 @@
 		<script defer src="js/footer.js"></script>
 		<title>Cwmaman Music Festival</title>
 		<link rel="icon" type="image/x-icon" href="images/icons/favicon.ico">
-		<link rel="manifest" href="manifest.json" />
-<!-- ios support -->
+		<link rel="manifest" href="/manifest.json">
+		<!-- ios support -->
 <link rel="apple-touch-icon" href="images/icons/icon-72x72.png" />
 <link rel="apple-touch-icon" href="images/icons/icon-96x96.png" />
 <link rel="apple-touch-icon" href="images/icons/icon-128x128.png" />
@@ -26,43 +26,36 @@
 <link rel="manifest" href="images/icons/site.webmanifest">
 <meta name="apple-mobile-web-app-status-bar" content="#db4938" />
 <meta name="theme-color" content="#db4938" />
+<link href="images/splashscreens/iphone5_splash.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="images/splashscreens/iphone6_splash.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="images/splashscreens/iphoneplus_splash.png" media="(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+<link href="images/splashscreens/iphonex_splash.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+<link href="images/splashscreens/iphonexr_splash.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="images/splashscreens/iphonexsmax_splash.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+<link href="images/splashscreens/ipad_splash.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="images/splashscreens/ipadpro1_splash.png" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="images/splashscreens/ipadpro3_splash.png" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="images/splashscreens/ipadpro2_splash.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<meta name="apple-mobile-web-app-capable" content="yes">
 	</head>
 	<body>
 		<main>
 <header-component></header-component>
 		<br>
-		<!-- <div class="MainPoster">
-				<img id="myImg" src="images/2023 Lineup Poster v1.jpg" alt="Cwmfest 2023 Full Lineup" style='height: 100%; width: 100%; object-fit: contain' ></img>
-		</div> -->
-		<!-- The Modal -->
-<div id="myModal" class="modal">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="img01">
-  <div id="caption"></div>
-</div>
 
-<script>
-// Get the modal
-var modal = document.getElementById("myModal");
+        <!-- Content -->
+        <div class="LineupPoster">
+            <img src="images/Featured.webp" alt="Cwmfest 2024 Featured Artists" style="height: 100%; width: 100%; object-fit: contain" onclick="openTopModal(this)">
+        </div>
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("myImg");
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
-}
+        <!-- Modal for the top -->
+        <div class="modal top-modal">
+            <span class="close" onclick="closeTopModal()">&times;</span>
+            <img class="modal-content" src="images/Featured.webp" alt="Modal Image">
+            <p class="modal-alt-text">Cwmfest 2024 Featured Artists</p>
+        </div>
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-  modal.style.display = "none";
-}
-</script>
+        <!-- More content -->
 	  
 <!-- Description -->
 <section class="w3-container w3-center w3-content">
@@ -71,15 +64,18 @@ span.onclick = function() {
 	<br>
 	<h3 class="w3-wide">Acts Are Arranged From Opening to Headlining per stage</h3>
 	<br>
+	<div id="Arts">
 	<h3 class="w3-wide">Cwmaman Arts Centre (Cwmaman Hall)</h3>
 	<br>
 	<!-- <h4 class="w3-wide">Friday</h4> -->
 	<br>
 	<h4 class="w3-wide">Saturday</h4>
-		<p class="w3-left-align">2:30 – 4:30 – Family Friendly Drum Workshops</p>
+		<p class="w3-left-align">2:30 – 4:30 – Family Drum Workshops with Afro Welsh Connection</p>
 		<br>
 	<!-- <h4 class="w3-wide">Sunday</h4> -->
+	</div>
 	<br>
+	<div id="Globe">
 	<h3 class="w3-wide">The Globe Inn</h3>
 	<!-- <h4 class="w3-wide">No card payments – Cash Only</h4>
 	<h4 class="w3-wide">Children allowed in the beer garden only. Children must be supervised at all times</h4>
@@ -89,7 +85,6 @@ span.onclick = function() {
 		<p class="w3-left-align">8pm – The Last Friday Club</p>
 	<br>
 	<h4 class="w3-wide">Saturday</h4>
-		<p>3:30 - 4:30 </p>
 		<p>5:00 – 5:30 Silvertip</p>
 		<p>6:00 – 6:30 Rose and Kev</p>
 		<p>7:00 – 8:00 Rat Gasket</p>
@@ -101,28 +96,34 @@ span.onclick = function() {
 		<p>4:00 – 4:30 </p>
 		<p>5:00 – 6:00 </p>
 		<p>6:30 – 7:30 </p>
-		<p>8:00 – 9:00 </p> -->
+		<p>8:00 – 9:00 </p>
+	</div>
 	<br>
+	<div id="Shepherds">
 	<h3 class="w3-wide">The Shepherd’s Arms</h3>
 	<!-- <h4 class="w3-wide">Cash and card payments taken</h4>
 	<h4 class="w3-wide">No children allowed during the festival</h4>
 	<h4 class="w3-wide">Filled rolls available while stocks last</h4> -->
 	<br>
-	<!-- <h4 class="w3-wide">Saturday</h4>
-		<p>3:30 - 4:30 </p>
+	<h4 class="w3-wide">Saturday</h4>
+		<p>3:30 - 4:00 TBA</p>
+		<p>4:00 - 4:30 Iwan Dacey</p>
+		<p>4:45 - 5:30 Dai Isaac</p>
 		<p>5:15 – 6:00 Afro Welsh Connection</p>
-		<p>6:00 – 6:30 </p>
-		<p>7:15 – 8:00 The Mad Yolks </p>
-		<p>8:30 – 9:30 </p>
-		<p>10:00 – 11:30 </p>
+		<p>7:00 – 7:30 Two In A Bush</p>
+		<p>7:45 – 8:30 The Mad Yolks </p>
+		<p>8:45 – 9:30 Tangerine Republic</p>
+		<p>10:00 – 11:00 High Voltage</p>
 	<br>
 	<h4 class="w3-wide">Sunday</h4>
 		<p>3:00 – 3:30 </p>
 		<p>4:00 – 4:30 </p>
 		<p>5:00 – 6:00 </p>
 		<p>6:30 – 7:30 </p>
-		<p>8:00 – 9:00 </p> -->
+		<p>8:00 – 9:00 </p>
+	</div>
 	<br>
+	<div id="TopClub">
 	<h3 class="w3-wide">The Top Club (Glynhafod Club)</h3>
 	<!-- <h4 class="w3-wide">Cash and card payments taken</h4>
 	<h4 class="w3-wide">No children allowed during the festival</h4>
@@ -134,12 +135,28 @@ span.onclick = function() {
 		<p>7:15 – 8:00 Bryony Sier</p>
 		<p>8:30 – 9:30 The Crewsers</p>
 		<p>10:00 – 11:15 The Semantics</p>
+	</div>
 	<br>
 	<h3 class="w3-wide">All Lineups subject to change without notice</h3>
 	<br>
 </section>
+
+        <!-- <div class="LineupPoster">
+            <img src="images/Schedule Yellow v6.webp" alt="Cwmfest 2023 Full Lineup" style="height: 100%; width: 100%; object-fit: contain" onclick="openBottomModal(this)">
+        </div> -->
+
+        <!-- Modal for the bottom -->
+        <!-- <div class="modal bottom-modal">
+            <span class="close" onclick="closeBottomModal()">&times;</span>
+            <img class="modal-content" src="images/Schedule Yellow v6.webp" alt="Modal Image">
+            <p class="modal-alt-text">Cwmfest 2023 Full Lineup</p>
+        </div> -->
+		
 <footer-component></footer-component>
-		</main>
+</main>
+
+    <!-- JavaScript code here -->
+    <script src="js/modal.js"></script>
     <script src="js/app.js"></script>
-	</body>
+</body>
 </html>
