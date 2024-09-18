@@ -1,6 +1,7 @@
 const footerContent = `<br>
 <h2 class="w3-wide">#MusicInTheVillage</h2>
 <h2 class="w3-wide">#Cwmfest24</h2>
+<h2 class="w3-wide">#NationalLottery</h2>
 
 <br>
 <!-- Footer -->
