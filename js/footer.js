@@ -1,6 +1,7 @@
 const footerContent = `<br>
 <h2 class="w3-wide">#MusicInTheVillage</h2>
 <h2 class="w3-wide">#Cwmfest25</h2>
+<h2 class="w3-wide">#ForMikeDragon</h2>
 <h2 class="w3-wide">#NationalLottery</h2>
 
 <br>
@@ -11,7 +12,7 @@ const footerContent = `<br>
 	<a href="https://bsky.app/profile/cwmfest.co.uk" target="_blank"><i class="fa-brands fa-bluesky fa-2x"></i></a>
 	<a href="https://twitter.com/CwmFest" target="_blank"><i class="fa-brands fa-twitter fa-2x"></i></a>
 	<a href="https://www.flickr.com/photos/127740634@N02/" target="_blank"><i class="fa-brands fa-flickr fa-2x"></i></a>
-	<a href="https://www.youtube.com/user/CwmFest" target="_blank"><i class="fa-brands fa-youtube fa-2x"></i></a>
+	<a href="https://www.youtube.com/@cwmamanmusicfestival" target="_blank"><i class="fa-brands fa-youtube fa-2x"></i></a>
 </footer>
 <br>
 <credits class="w3-container w3-center w3-content">
